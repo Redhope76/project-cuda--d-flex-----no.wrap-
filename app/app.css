@@ -687,6 +687,9 @@ padding-bottom: 50px;
         width: 200px;
         height: 45px;
     }
-
-
+    max-width>container
+    1200px   >1140px
+    992px    >960px
+    768px    >720px
+    576px    >540px
   }
