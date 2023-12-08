@@ -29,9 +29,10 @@ body{
     align-items: center;
     
 }
-.links{
-    display: flex;
+.links-list{
     margin-right: 190px;
+    list-style-type: none;
+    display: flex;
     gap: 43px;
 }
 .L1{
@@ -253,6 +254,7 @@ body{
     padding-top: 70px;
     width: 100%;
     flex-wrap: wrap;
+    padding-bottom: 80px;    
 }
 .section4-img1{
     width: 100%;
@@ -581,6 +583,8 @@ padding-bottom: 50px;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    list-style-type: none;
+
 }
 .section8-footer-link{
     color: #fff;
@@ -589,7 +593,107 @@ padding-bottom: 50px;
 .section8-footer-link:hover{
     color: #30bae7;
 }
-@media screen and (max-width: 992px) {
+    @media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .links{
+        gap: 23px;
+        margin-right: 90px;
+    }
+    .icon-head{
+        margin-left: 100px;
+    }
+    .section1-p1{
+        font-size: 20px;
+    }
+    .btn-head{
+        width: 200px;
+        height: 45px;
+    }
+    .section2 {
+        height: 100%;
+        font-size: 20px;
+    }
+    .header-section2 {
+        font-size: 20px
+    }
+    .section2-p{
+        font-size: 12px;
+    }
+    .header-section2-line::after{
+        left: 320px;
+    }
+    .header-section3{
+        font-size: 20px;
+    }
+    .Services{
+        flex-wrap: wrap;
+    }
+    .header-section3-line::after {
+        left: 320px;
+    }
+    .header-section4{
+        font-size: 20px;
+    }
+    .section4-p {
+        font-size: 14px;
+    }
+    .section5-h2{
+        font-size: 20px;
+    }
+    .header-section5-line::after {
+        left: 320px;
+    }
+    .header-section5{
+        font-size: 20px;
+    }
+    .header-section5-p {
+        font-size: 14px;
+    }
+    .section5-row1{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section6-h2{
+        font-size: 20px;
+    }
+    .header-section6-p{
+        font-size: 14px;
+    }
+    .header-section6-line::after {
+        left: 320px;
+    }
+    .section7{
+        padding: 10px;
+    }
+    .section7-h2{
+        font-size: 20px;
+    }
+    .header-section7-p{
+        font-size: 14px;
+    }
+    .header-section7-line::after {
+        left: 320px;
+    }
+    .section5-btn3{
+        width: 200px;
+        height: 45px;
+    }
+    .section7-input-submit{
+        width: 200px;
+        height: 45px;
+    }
+
+  }
+    /* @media screen and (max-width: 992px) {
     .container {
         max-width: 720px;
     }
@@ -687,9 +791,210 @@ padding-bottom: 50px;
         width: 200px;
         height: 45px;
     }
-    max-width>container
-    1200px   >1140px
-    992px    >960px
-    768px    >720px
-    576px    >540px
+
   }
+    @media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .links{
+        gap: 23px;
+        margin-right: 90px;
+    }
+    .icon-head{
+        margin-left: 100px;
+    }
+    .section1-p1{
+        font-size: 20px;
+    }
+    .btn-head{
+        width: 200px;
+        height: 45px;
+    }
+    .section2 {
+        height: 100%;
+        font-size: 20px;
+    }
+    .header-section2 {
+        font-size: 20px
+    }
+    .section2-p{
+        font-size: 12px;
+    }
+    .header-section2-line::after{
+        left: 320px;
+    }
+    .header-section3{
+        font-size: 20px;
+    }
+    .Services{
+        flex-wrap: wrap;
+    }
+    .header-section3-line::after {
+        left: 320px;
+    }
+    .header-section4{
+        font-size: 20px;
+    }
+    .section4-p {
+        font-size: 14px;
+    }
+    .section5-h2{
+        font-size: 20px;
+    }
+    .header-section5-line::after {
+        left: 320px;
+    }
+    .header-section5{
+        font-size: 20px;
+    }
+    .header-section5-p {
+        font-size: 14px;
+    }
+    .section5-row1{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section6-h2{
+        font-size: 20px;
+    }
+    .header-section6-p{
+        font-size: 14px;
+    }
+    .header-section6-line::after {
+        left: 320px;
+    }
+    .section7{
+        padding: 10px;
+    }
+    .section7-h2{
+        font-size: 20px;
+    }
+    .header-section7-p{
+        font-size: 14px;
+    }
+    .header-section7-line::after {
+        left: 320px;
+    }
+    .section5-btn3{
+        width: 200px;
+        height: 45px;
+    }
+    .section7-input-submit{
+        width: 200px;
+        height: 45px;
+    }
+
+  }
+    @media screen and (max-width: 576px) {
+    .container {
+        max-width: 720px;
+    }
+    .links{
+        gap: 23px;
+        margin-right: 90px;
+    }
+    .icon-head{
+        margin-left: 100px;
+    }
+    .section1-p1{
+        font-size: 20px;
+    }
+    .btn-head{
+        width: 200px;
+        height: 45px;
+    }
+    .section2 {
+        height: 100%;
+        font-size: 20px;
+    }
+    .header-section2 {
+        font-size: 20px
+    }
+    .section2-p{
+        font-size: 12px;
+    }
+    .header-section2-line::after{
+        left: 320px;
+    }
+    .header-section3{
+        font-size: 20px;
+    }
+    .Services{
+        flex-wrap: wrap;
+    }
+    .header-section3-line::after {
+        left: 320px;
+    }
+    .header-section4{
+        font-size: 20px;
+    }
+    .section4-p {
+        font-size: 14px;
+    }
+    .section5-h2{
+        font-size: 20px;
+    }
+    .header-section5-line::after {
+        left: 320px;
+    }
+    .header-section5{
+        font-size: 20px;
+    }
+    .header-section5-p {
+        font-size: 14px;
+    }
+    .section5-row1{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section6-h2{
+        font-size: 20px;
+    }
+    .header-section6-p{
+        font-size: 14px;
+    }
+    .header-section6-line::after {
+        left: 320px;
+    }
+    .section7{
+        padding: 10px;
+    }
+    .section7-h2{
+        font-size: 20px;
+    }
+    .header-section7-p{
+        font-size: 14px;
+    }
+    .header-section7-line::after {
+        left: 320px;
+    }
+    .section5-btn3{
+        width: 200px;
+        height: 45px;
+    }
+    .section7-input-submit{
+        width: 200px;
+        height: 45px;
+    }
+
+  } */
+  max-width>container
+  1200px   >1140px
+  992px    >960px
+  768px    >720px
+  576px    >540px
